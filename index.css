@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400&display=swap');
+ /*#nav{display: none;}TODO:PCではdisplayしたい*/
+ body{user-select:none; color: white;line-height:1.2;}
+ .notot{font-family: 'Noto Sans', sans-serif; font-weight: 100;}
+ .notol{font-family: 'Noto Sans', sans-serif; font-weight: 300;}
+ .notor{font-family: 'Noto Sans', sans-serif; font-weight: 400;}
+ .ginl{font-family: "dnp-shuei-gothic-gin-std", sans-serif; font-weight: 400; font-style: normal;}
+ .ginb{font-family: "dnp-shuei-gothic-gin-std", sans-serif; font-weight: 600; font-style: normal;}
+ a{text-decoration:none;color: white;}
+.title{
+
+  font-size: min(6vh,13vw);
+  position: absolute;
+  top: 3vh;
+  left: 3vw;
+  text-align: left;
+  font-family: "dnp-shuei-gothic-gin-std", sans-serif; font-weight: 600; font-style: normal;
+}
+.shootingstar{
+	
+	bottom:1vh;
+	left:0;
+	height:100vh;
+	width: 100vw;
+	position: fixed;
+	overflow:hidden;
+	z-index: -3;
+}
+/*img{z-index: -1;}*/
+.shootingstar img{
+	opacity: 0.35;
+    width: auto;
+    height: 90vh;
+    min-width: 100%;
+    /*min-height: 100%;*/
+	height: 90%;
+    max-width: inherit;
+    position: absolute;
+    left: 53%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#firstSootingstar img{opacity: 0.95;}
+#section1{
+ background-image: linear-gradient(110deg,#242424,#242424);
+ background-position: center;
+ background-size: cover;}
+#Wparent{ top: 3vh; position: absolute;left: 1vw; }
+#Welcome {
+	top:2vh;
+	z-index: 99;
+	font-size: 8vh;
+	position:relative;
+}
+  #W2{position:relative; top:0vh;font-size: 2.2vh; left: 0.33vh;z-index: -10}
+  #borders{}
+  #b1{}
+  #b2{}
+  #b3{}
+
+#section2{
+ background-image: linear-gradient(110deg,#2f9de2,#2f9de2);
+ background-position: center;
+ background-size: cover;
+ }
+  .youtube{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    }
+  .youtube iframe {
+    width: 100%;
+    height: 100%;
+  }
+  #d2{position: absolute; left: 2.5vw; font-size: 2.28vh; width: 95vw; padding-top: 3vh; bottom: 22vh; }
+  #badgeParentP{position: fixed; bottom: 6vh; height: 10vh;}
+  #badgeParent{display:flex; width: 100%; margin-left: 5%;}
+  #aBadge{display: absolute; left:0; height:100%; width: 50%; text-align: center; margin-right: 2.5vw;}
+  #aBadge img{height: 7vh;}
+  #gBadge{display: absolute; right: 0; height: 100%;  margin-left: 1vh; margin-top:  -1.1vh; text-align: center}
+  #gBadge img{height: 9vh;}
+
+#section3{
+  background-image: linear-gradient(110deg,#fc6076,#ff9944);
+  background-position: center;
+  background-size: cover;
+}
+  #akiyaimgP{backdrop-filter: blur(200px); rgba(0, 0, 0, .5);}
+  #akiyaimg{position: absolute; top: 25vh; width: min(80%,70vh); left:calc((100% - min(80%,70vh))/2);
+	  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);}
+  #d3 {left: 2.5vw; font-size: 2vh; width: 95vw; position: absolute; top:60vh; }
+  #akiyaParent{position: absolute; top:72vh;width: 100%;}
+  #akiyat{font-size: 4.3vh; text-align: center; width: 100%;}
+  #akiyar{text-align: right; padding-right: 10vw; font-size: 2vh;}
+  #webcParentP{position: absolute;bottom:7vh;text-align: center; width: 100%;}
+  #webcParent{margin: 0 auto; display: flex; justify-content: center }
+  #prize{position: relative; width: 7vh; left:0;}
+  #webt{position: relative; font-size: 1.9vh;top: 2vh;}
+
+#section4{
+   background-image: linear-gradient(110deg,#959595,#646464);
+   background-position: center;
+   background-size: cover;
+}
+  #clipicon{width: 35vh; position: absolute; top:23vh; left: calc((100vw - 35vh)/2) ;}
+  #clipdp{position: absolute; top:60vh;width: 100%;}
+  #clipd1{text-align: center; font-size: 2.2vh;}
+  #clipd2{text-align: center;font-size: 13vh;}
+  #d4{position: absolute; left: 2vw; bottom: 6vh; font-size: 2.5vh;}
+
+#section5{
+   background-image: url("img/StarrySky.jpg");
+   background-position: center;
+   background-size: cover;
+}
+  .s5title{
+ font-size: 7vh;
+  text-align: left;
+}
+  .worksTitle{font-size: 4vh; padding-bottom: 1vh;padding-top: 1vh;}
+  .worksDisc{padding-bottom: 0.5vh; font-size: 2.3vh;}
+  .worksDiscS{font-size: 1vh;}
+  #Aboutme{}
+  #Aboutmetxt{ font-size: 2.3vh;}
+  #Allworks{}
+
+
+
+.Copyright{position: absolute; bottom: 1%; font-weight:100; font-size: 1vh; margin-left: 1vh ; margin-right: 1vh;}
+#p1border{height: 4px;width: 100%;background: linear-gradient(-20deg,#00ffff, #9e00ff);margin-bottom: 0;}
+
+
+#abp {
+	position: absolute; top:3vh; left:3vw;font-size: 4vw;
+}
+
+#worksp {
+	position: absolute; top:43vh; left:3vw;font-size: 4vw;
+}
+
+#s2yt {
+	position: absolute; top: 20vh; width: min(100%,70vh); left:calc((100% - min(100%,70vh))/2);
+}
+
+#firstSootingstar {
+	filter: drop-shadow(0px 0px 0px #000);
+}

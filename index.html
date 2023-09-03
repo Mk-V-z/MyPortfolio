@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="index.css">
+<style>
+
+
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+$(function() {
+    $('#pagepiling').pagepiling({
+        scrollingSpeed: 700,
+        menu: '#nav',
+        sectionSelector: '.section',
+        sectionsColor: ['#000000', '#eee', '#fff', '#eee','#ddd'],
+        anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+        css3:true,
+        navigation: {
+            'textColor': '#000',
+            'bulletsColor': '#999696',
+            'position': 'right',
+            'tooltips': ['Welcome', 'Skyword', 'Akiya', 'Clip+','About me']
+        }, touchSensitivity: 3,
+    });
+
+});
+
+
+  (function(d) {
+    var config = {
+      kitId: 'jay4dsc',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+
+
+
+window.onload = function(){WelcomeF();}
+var period=["","." , "..", "...","....","....."]
+var i=0
+function WelcomeF(){
+document.getElementById("Welcome_under").innerHTML = "Please scroll down"+period[i];
+if(i==5){i=-1;}
+i=i+1;
+setTimeout('WelcomeF()', 450);}
+</script>
+<link rel="stylesheet" href="./script/jquery.pagepiling.css">
+</head>
+<body>
+
+  <div id="pagepiling">
+
+    <section class="section" id="section1">
+		      <div class="shootingstar" id="firstSootingstar">
+			     <img src ="img/shootingstar.svg" alt="Icon of ClipPlus"/>
+		      </div>
+
+
+          <div id=Wparent>
+          <div id="Welcome" class="notor">
+            Welcome<br>
+            To<br>
+            My<br>
+            Portfolio.</div><br>
+          <div id="W2" class="notot">
+            My name is Matsushima Keigo<br>
+            The initial is MK<br>
+            k5 sounds like keigo in Japanese<br>
+            5 is v in Roman<br>
+            So,&nbsp;I am mkv</div>
+          <div id="borders">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+          </div>
+    </section>
+
+
+    <section class="section" id="section2">
+      <div class="shootingstar">
+       <img src ="img/shootingstar.svg" alt="Icon of ClipPlus"/>
+      </div>
+
+      <div class="title ginb">
+          空飛ぶように<br>
+          覚えよう。<br>
+      </div>
+      <div class="youtube" id="s2yt">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zbU0wpvO-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="d2" class="ginl">
+        登録は覚えたい英単語の写真を撮るだけ。<br>
+		あなたの苦手な単語を自動で出題。<br>
+        軽やかな学習体験をあなたに。<br>
+        新しい学習アプリ Skywordです。<br>
+      </div>
+	  <div id="badgeParentP">
+	  <div id="badgeParent">
+		<div  id="aBadge"><img src ="img/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg" alt="Appstore Badge"/></div>
+	    <div  id="gBadge"><a href="https://play.google.com/store/apps/details?id=jp.mkv.reword"><img src ="img/google-play-badge.png" alt="GooglePlay Badge"/></a></div>
+      </div>
+	  </div> 
+
+
+
+      <div class="Copyright ginl">
+        AppleとAppleのロゴ、App Storeは、米国およびその他の国で登録されたApple Inc.の商標です。<br>
+        Google Play および Google Play ロゴは、Google LLC の商標です。<br>
+      </div>
+
+    </section>
+    <section class="section" id="section3">
+          <div class="shootingstar">
+            <img src ="img/shootingstar.svg" alt="Icon of ClipPlus"/>
+          </div>
+          <div class="title ginb">
+            7軒に1軒は、<br>
+            空き家らしい。<br>
+          </div>
+          <a　id="akiyaimgP" href="https://contest.japias.jp/tqj22/220362X/index.html">
+			<img id="akiyaimg" src ="img/akiya-web.png" alt="Image of the website"/>
+		  </a>
+
+          <div id="d3" class="ginb">
+            増え続ける空き家が及ぼす悪影響の数々。<br>
+            何が問題になっていて、何をすべきなのか。<br>
+            空き家問題と向き合うことを決めたあなたが<br>
+            最初に見るべきWebサイト。<br>
+          </div>
+		  <a href="https://contest.japias.jp/tqj22/220362X/index.html">
+          <div id="akiyaParent" class="ginb">
+            <div id="akiyat">「空き家、すんでない」<br></div>
+            <div id="akiyar">click to access!</div><br>
+          </div>
+		  </a>
+          <div id="webcParentP"><div id="webcParent">
+            <img id="prize" src ="img/prize.png" alt="Icon of prize"/>
+            <div id="webt" class="ginb">第22回全国中学高校Webコンテスト金賞<br></div>
+			  </div></div>
+          <div class="Copyright ginl">
+            図の出典：総務省統計局「平成30年住宅・土地統計調査 結果の概要」<br>
+          </div>
+
+
+    </section>
+    <section class="section" id="section4">
+          <div class="shootingstar">
+            <img src ="img/shootingstar.svg" alt="Icon of ClipPlus"/>
+          </div>
+          <div class="title ginb">
+            クリップボード<br>
+            1つでいいの？<br>
+          </div>
+         <a href="https://www.vector.co.jp/soft/winnt/util/se524167.html">
+		 <img id="clipicon" src ="img/clipicon.png" alt="Icon of ClipPlus"/>
+          <div id="clipdp">
+		  <div id="clipd1" class="ginb">
+            クリップボード拡張ソフト<br>
+          </div>
+          <div id="clipd2" class="notot">
+            Clip+
+          </div>
+		</a>
+		  </div>
+          <div class="ginb" id="d4">
+            キーボードだけで操作できる<br>
+            クリップボードを5つに増やすソフト。<br>
+            おまけで検索機能付き。<br>
+          </div>
+    </section>
+    <section class="section" id="section5">
+		<div id="abp">
+          <div class="s5title notor" id="Aboutme">
+            About me
+          </div>
+          <div class="notot" id="Aboutmetxt">
+            Keigo Matsushima | 2003 9/30 | Kyoto , Japan<br>
+            🐦@mkv01 📷@mkv.01 <br>
+          </div>
+		</div>
+		<div id="worksp">
+          <div class="s5title notor" id="Allworks">
+            All works
+          </div>
+          <div class="worksTitle notot">
+            HTML/CSS<br>
+          </div>
+          <div class="worksDisc ginl">
+            空き家、すんでない  <a class="worksDiscS">(第22回全国中学高校Webコンテスト金賞)</a><br>
+            虫のタンパク宣言  <a class="worksDiscS">(第23回全国中学高校Webコンテスト金賞)</a><br>
+          </div>
+          <div class="worksTitle notot">
+            Flutter<br>
+          </div>
+          <div class="worksDisc notot">
+            Skyword  <a class="worksDiscS">(iOS/Android)</a><br>
+          </div>
+          <div class="worksTitle notot">
+            C#<br>
+          </div>
+          <div class="worksDisc notot">
+            Clip+  <a class="worksDiscS">(Windows)</a><br>
+          </div>
+
+	</div>
+          <div class="Copyright notol">
+            Attribution : Shooting star icons created by max.icons - Flaticon<br>
+          </div>
+    </section>
+  </div>
+  <input type="button" id="main_button">
+  <input type="button" id="sub_button">
+  <input type="button" id="sub_button2">
+  <nav>
+      <ul id="nav">
+          <li data-menuanchor="page1" class="active"><a href="#page1"></a></li>
+          <li data-menuanchor="page2"><a href="#page2"></a></li>
+          <li data-menuanchor="page3"><a href="#page3"></a></li>
+          <li data-menuanchor="page4"><a href="#page4"></a></li>
+          <li data-menuanchor="page5"><a href="#page5"></a></li>
+      </ul>
+  </nav>
+
+
+<script src="./script/jquery.pagepiling.min.js"></script>
+</body>
+</html>
